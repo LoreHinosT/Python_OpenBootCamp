@@ -7,3 +7,7 @@ lista=[
 
 f.writelines(lista)
 f.close()
+
+f=open("fichero_e8_1","r")
+print(f.read())
+f.close()
